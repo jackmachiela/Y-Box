@@ -1,0 +1,37 @@
+1) Within the Arduino IDE, install the library "TFT_eSPI  by Bodmer", this procedure was tested with v2.5.43
+
+2) Edit the file:
+	C:\Shares\Application Folders (Falcon)\Arduino\libraries\TFT_eSPI\User_Setups\Setup43_ST7735.h
+
+3) Find the line:
+	#define TFT_DC   PIN_D3
+   Change it to:
+	#define TFT_DC   PIN_D6
+
+
+
+
+4) Edit the file:
+	C:\Shares\Application Folders (Falcon)\Arduino\libraries\TFT_eSPI\User_Setup_Select.h
+
+  Find the line:
+	//#include <User_Setups/Setup43_ST7735.h>            // Setup file for ESP8266 & ESP32 configured for my ST7735S 80x160
+  Uncomment it to:
+	  #include <User_Setups/Setup43_ST7735.h>            // Setup file for ESP8266 & ESP32 configured for my ST7735S 80x160
+
+
+
+5) Find the file:
+	C:\Shares\Application Folders (Falcon)\Arduino\libraries\TFT_eSPI\User_Setup.h
+
+   Find the line:
+	#define ILI9341_DRIVER       // Generic driver for common displays
+   Comment it to:
+	//#define ILI9341_DRIVER       // Generic driver for common displays
+
+
+   Find the line:
+	//#define ST7735_DRIVER      // Define additional parameters below for this display
+   Uncomment it to:
+	#define ST7735_DRIVER      // Define additional parameters below for this display
+

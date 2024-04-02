@@ -1,0 +1,33 @@
+===================== Board: Wemos Mini D1 R2 ==================================
+Arduino	> Screen, Button
+-----------------
+TX	- 
+RX	- 
+D1	- 
+D2	- 
+D3	- Button
+D4	- RES
+G	- GND, Button
+5V	- 
+
+RST	- 
+A0	- 
+D0	- 
+D5	- SCL
+D6	- DC
+D7	- SDA
+D8	- CS
+3V3	- VCC
+
+
+===================== Screen: SPI 7735-S 0.96" 80x160 (RGB) IPS ================
+Screen	> Arduino
+-----------------
+GND	- G
+VCC	- 3v3
+SCL	- D5
+SDA	- D7
+RES	- D4
+DC	- D6
+CS	- D8
+BLK	- -

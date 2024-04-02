@@ -1,0 +1,11 @@
+1x Wemos Mini D1 (R2)
+1x SPI 7735-S 0.96" 80x160 (RGB) IPS Display
+1x Square pushbutton
+
+Small box
+
+USB Cable & Charger
+
+Wires
+
+Usual tools; wire cutters, soldering iron, etc.
