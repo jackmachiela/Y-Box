@@ -10,7 +10,7 @@
 // Original idea by Jack Machiela, (c) 2024
 // 
 // This version was released on April 2nd, 2024 via Github
-// Latest version can be found on 
+// Latest version can be found on https://github.com/jackmachiela/Y-Box
 
 #include <WiFiManager.h>      // Install "WifiManager by tzapu" - lib at https://github.com/tzapu/WiFiManager - tested at v2.0.17
 #include <ezTime.h>           // Install "ezTime by Rop Gongrijp" - lib at https://github.com/ropg/ezTime, docs at https://awesomeopensource.com/project/ropg/ezTime - tested at v0.8.3
